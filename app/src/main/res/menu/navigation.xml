@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_fill"
+        android:title="@string/home"
+        app:cnb_iconColor="@color/cardColorTeal"
+        />
+
+    <item
+        android:id="@+id/navigation_mission"
+        android:icon="@drawable/rank_select"
+        android:title="@string/missions"
+        app:cnb_iconColor="@color/bgBottomNavigation" />
+
+    <item
+        android:id="@+id/navigation_invite"
+        android:icon="@drawable/ic_invite"
+        android:title="@string/invite"
+        app:cnb_iconColor="@color/blue_darks" />
+
+    <item
+        android:id="@+id/navigation_reward"
+        android:icon="@drawable/ic_gift_fill"
+        android:title="@string/reward"
+        app:cnb_iconColor="@color/gradientOrange" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account_circle"
+        android:title="@string/profile"
+        app:cnb_iconColor="@color/ic_launcher_background"/>
+
+</menu>
+

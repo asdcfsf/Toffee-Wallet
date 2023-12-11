@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/image"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="4dp"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:orientation="vertical">
+
+                        <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginEnd="20dp"
+                            android:textSize="18sp"
+                            app:baseColor="@color/shimmerColor"
+                            app:deepColor="@color/shimmerColor"
+                            app:duration="1500"
+                            app:interval="1000"
+                            app:progressLength="300dp"
+                            app:radius="5dp" />
+
+                        <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="20dp"
+                            android:textSize="18sp"
+                            app:baseColor="@color/shimmerColor"
+                            app:deepColor="@color/shimmerColor"
+                            app:duration="1500"
+                            app:interval="1000"
+                            app:progressLength="300dp"
+                            app:radius="5dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    app:baseColor="@color/shimmerColor"
+                    app:deepColor="@color/shimmerColor"
+                    app:duration="1500"
+                    app:interval="1000"
+                    app:progressLength="300dp"
+                    app:radius="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvPromocoin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!-- Refer-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvRefer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Spin-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvSpin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Scratch-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvScratch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Quiz-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvQuiz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Videowall-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvVideowall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Read Article-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvArticle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Video-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvVideo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--App install-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:id="@+id/tvApp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:padding="@dimen/margin_10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:elevation="4dp"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="5dp"
+                        android:orientation="vertical">
+
+                        <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginEnd="20dp"
+                            android:textSize="18sp"
+                            app:baseColor="@color/shimmerColor"
+                            app:deepColor="@color/shimmerColor"
+                            app:duration="1500"
+                            app:interval="1000"
+                            app:progressLength="300dp"
+                            app:radius="5dp" />
+
+                        <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="20dp"
+                            android:textSize="18sp"
+                            app:baseColor="@color/shimmerColor"
+                            app:deepColor="@color/shimmerColor"
+                            app:duration="1500"
+                            app:interval="1000"
+                            app:progressLength="300dp"
+                            app:radius="5dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    app:baseColor="@color/shimmerColor"
+                    app:deepColor="@color/shimmerColor"
+                    app:duration="1500"
+                    app:interval="1000"
+                    app:progressLength="300dp"
+                    app:radius="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!-- Refer-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Spin-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Scratch-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Quiz-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Videowall-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Read Article-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--Video-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+                <!--App install-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_checkmark" />
+
+                    <com.omjoonkim.skeletonloadingview.SkeletonLoadingView
+                        android:layout_width="wrap_content"
+                        android:layout_height="10dp"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        app:baseColor="@color/shimmerColor"
+                        app:deepColor="@color/shimmerColor"
+                        app:duration="1500"
+                        app:interval="1000"
+                        app:progressLength="300dp"
+                        app:radius="5dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

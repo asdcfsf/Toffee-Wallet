@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:orientation="vertical"
+    android:id="@+id/mainLyt"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo"
+        android:elevation="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_spin" />
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:elevation="2dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_home_vector2"
+        android:layout_height="130dp">
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            tools:ignore="NotSibling" />
+
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/tvtitle"
+            android:fontFamily="@font/roboto_light"
+            android:maxLines="2"
+            android:paddingHorizontal="2dp"
+            android:text="@string/read_artical_description"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            tools:ignore="NotSibling" />
+
+        <RelativeLayout
+            android:id="@+id/start"
+            android:layout_below="@id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/bg_btn_square"
+            android:padding="2dp"
+            >
+
+            <TextView
+                android:id="@+id/btnName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="1"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                tools:ignore="NotSibling,SmallSp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

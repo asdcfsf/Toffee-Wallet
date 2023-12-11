@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    app:shape_dot_radius="3dp"
+    app:shape_dot_spacing="2dp"
+    android:elevation="2dp"
+    app:shape_edge_position="right|left|top|bottom"
+    app:shape_dottedEdgesCutCorner_bottomLeftSize="8dp"
+    app:shape_dottedEdgesCutCorner_bottomRightSize="8dp"
+    app:shape_dottedEdgesCutCorner_topLeftSize="8dp"
+    app:shape_dottedEdgesCutCorner_topRightSize="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_contest"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/placeholder"
+            android:layout_marginStart="@dimen/margin_10dp"
+            app:riv_corner_radius="8dp"
+            />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@id/image"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="2"
+            android:minLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:id="@+id/inviteLyt"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@id/image">
+
+            <RelativeLayout
+                android:id="@+id/lytInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_invite"
+                        android:layout_gravity="center_vertical"
+                        app:tint="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:id="@+id/tvInvite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:maxLines="1"
+                        android:layout_gravity="center_vertical"
+                        android:text="0/0 Invited"
+                        android:layout_marginStart="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:drawablePadding="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/layout_coin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10sp"
+                        android:background="@drawable/bg_promo_balance">
+
+                        <ImageView
+                            android:id="@+id/icons"
+                            android:layout_width="13sp"
+                            android:layout_height="13sp"
+                            android:layout_marginStart="10dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_coin"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/coin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_toEndOf="@+id/icons"
+                            android:fontFamily="@font/roboto_regular"
+                            android:text="100 Coin"
+                            android:textColor="@color/white"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/complete"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/collect_bonus"
+                android:background="@drawable/bg_btn_square"
+                android:backgroundTint="@color/green"
+                />
+        </RelativeLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/inviteLyt"
+            android:progress="10"
+            android:progressDrawable="@drawable/bg_progress_green" />
+
+        <io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressBar"
+            android:layout_marginTop="5dp"
+            app:shape_dot_radius="3dp"
+            app:shape_dot_spacing="2dp"
+            app:shape_edge_position="top">
+
+            <LinearLayout
+                android:id="@+id/dateLyt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/baseline_calendar_month_24"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:id="@+id/eventPeriod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:drawablePadding="5dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView>
+
+
+
+    </RelativeLayout>
+</io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView>

@@ -1,0 +1,273 @@
+<project version="4">
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-anydpi/bg_quiz.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-anydpi/ic_referimage.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-hdpi/btn_corner_dark.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-hdpi/home_gradient_maths2.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-hdpi/ic_arrow_next.xml" value="0.2175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-hdpi/ic_download_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-hdpi/icon_card.xml" value="0.2175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-hdpi/spin_background.xml" value="0.2175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-mdpi/badge_background.xml" value="0.249" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-mdpi/bg_card.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-mdpi/ic_add_a_photo_24dp.xml" value="0.21" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-mdpi/ic_wave_top.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-mdpi/ic_wave_two.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xhdpi/border_white.xml" value="0.21" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxhdpi/ic_add_a_photo_24dp.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxhdpi/ic_baseline_autorenew_24.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/bg_btn.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/bg_dot_border.xml" value="0.161" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/bg_edittext.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/bg_white.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/border_danger.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/border_green.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/border_success.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/border_warning.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/border_white.xml" value="0.222" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/btn_info.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/btn_success.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/card_bg.xml" value="0.22" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/card_bg_dark.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/ic_baseline_delete_24.xml" value="0.21" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/ic_google.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable-xxxhdpi/invite_select.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/account_select.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/badge_background.xml" value="0.21" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_balance.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_border.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_compelte.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_danger.xml" value="0.2045" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_gradient.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_overlay.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bg_success.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/border_red.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/bottom_shape.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/btn_corner5.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/btn_danger.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/btn_round_corner_transparent.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/card_foreground_selector.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/checked_bg.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/circle_bg.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/circularprogressbar.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/green.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/home_select.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_account_circle_black_24dp.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_account_circle_blackfill.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_account_circle_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_arrow_back_outline.xml" value="0.2045" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_arrow_circle_right_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_arrow_forward_circle.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_arrowdown.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_arrowup.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_back.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_baseline_watch_later_24.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_beenhere_24.xml" value="0.21" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_calendar_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_checkmark_circle_2.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_clock.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_close.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_close_circle_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_facebook.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_faq.xml" value="0.2175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_fb.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_flash.xml" value="0.2045" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_gift_fill.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_gift_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_group1.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_help.xml" value="0.203" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_history.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_home_fill.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_home_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_homegroup.xml" value="0.2175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_info.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_launcher_background.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_leaderboard.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_listen_stage___easy.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_lock.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_logout.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_menu.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_noti.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_setting.xml" value="0.2175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_support.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_telegram.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_tg.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_translate.xml" value="0.21" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_trophy_new.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_tropy_fill.xml" value="0.18" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_unlock_outline.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_user.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_victory.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_wrong.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/ic_youtube.xml" value="0.218" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/image_drawable.xml" value="0.2045" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/mainbtn.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/nav_item_color_state.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/option_border.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/outline_account_circle_24.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/profile_design.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/progress_limit.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/quiz_bg.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/rank_select.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/round_bgwhite.xml" value="0.2015" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/round_bor_options.xml" value="0.2015" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/rounded_dialog.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/top_corner_curve.xml" value="0.2015" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/wiz_default.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/wiz_selector.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/wiz_slected.xml" value="0.301" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/drawable/wrong_bg.xml" value="0.2045" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_aboutus.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_api_offers.xml" value="0.3253012048192771" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_article.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_collect_rewards.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_complete_do.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_complete_offer.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_cpa_offer.xml" value="0.234375" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_create_promo.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_daily_offer.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_earn.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_faq.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_games.xml" value="0.309375" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_history.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_intro.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_invite.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_leaderboard.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_login_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_math_quiz.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_notification.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_offerwall.xml" value="0.25416666666666665" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_payment.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_play_games.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_play_quiz.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_profile.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_promo_apps.xml" value="0.2921875" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_promo_report.xml" value="0.2921875" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_promo_video.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_promo_web.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_promote.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_quiz.xml" value="0.26614583333333336" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_quiz_result.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_refer_bonus.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_reward_category.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_rewards.xml" value="0.22" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_scratch.xml" value="0.3109375" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_setting.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_spin.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_store_list.xml" value="0.3253012048192771" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_submit_dailyoffer.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_support.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_video.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/activity_visit.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/banner_ad.xml" value="0.23958333333333334" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/content_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_apps.xml" value="0.21354166666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_coin_history.xml" value="0.3020833333333333" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_coins.xml" value="0.175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_cpi.xml" value="0.309375" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_daily_mission.xml" value="0.175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_home2.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_invite.xml" value="0.175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_leaderboard.xml" value="0.24114583333333334" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_main.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_offerwall.xml" value="0.26510416666666664" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_profile.xml" value="0.3927056827820187" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_rating_dialog.xml" value="0.175" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_reward.xml" value="0.28354430379746837" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_reward_history.xml" value="0.26510416666666664" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_scrath.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_spin.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/fragment_webs.xml" value="0.1750911933298593" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/image_slider_layout_item.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_admob_native_ads.xml" value="0.20104166666666667" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_apps.xml" value="0.27395833333333336" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_article.xml" value="0.4" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_card_placeholder.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_coinstore.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_dailyoffer.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_facebook_ads.xml" value="0.3302083333333333" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_faq.xml" value="0.2921875" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_game.xml" value="0.25416666666666665" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_history.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_home.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_leaderboard.xml" value="0.4257309941520468" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_notification.xml" value="0.67" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_offerwall.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_placeholder.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_promotion.xml" value="0.5283018867924528" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_quiz.xml" value="0.2713541666666667" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_reward_cat.xml" value="0.23229166666666667" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_reward_history.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_rewards.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_support.xml" value="0.5283018867924528" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/item_video.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_alert.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_banner.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_collect_bonus.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_collect_refer.xml" value="0.21875" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_language.xml" value="0.5283018867924528" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_loading.xml" value="0.22" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_logout.xml" value="0.24114583333333334" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_nointernet.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_popup.xml" value="0.24479166666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_support.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_update.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/layout_web.xml" value="0.25833333333333336" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/no_result.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_apps.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_coinstore.xml" value="0.5" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_faq.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_game.xml" value="0.33" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_history.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_intro.xml" value="0.2921875" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_mission.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_offerwall.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_promotion.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_quiz.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_reward_cat.xml" value="0.2921875" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_reward_history.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_rewards.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/row_video.xml" value="0.32916666666666666" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/layout/toolbar.xml" value="0.2604166666666667" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/menu/navigation.xml" value="0.19270833333333334" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2035" />
+        <entry key="..\:/codecanyone/Reward Point/app/src/main/res/xml/domain_whitelist.xml" value="0.2864583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/AppData/Roaming/Google/AndroidStudio2022.3/plugins" />
+    <option name="OPTION_SCOPE" value="public" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

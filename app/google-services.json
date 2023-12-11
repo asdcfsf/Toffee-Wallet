@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "991122215968",
+    "project_id": "toffee-wallet",
+    "storage_bucket": "toffee-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991122215968:android:25f69b6e818160e8ae9845",
+        "android_client_info": {
+          "package_name": "com.Toffee.Wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991122215968-cdjmhbmghgrlrs88bf7d7v3hjonlnap8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Toffee.Wallet",
+            "certificate_hash": "5c8549e187eb59cbced35fa79381cc676076f1d6"
+          }
+        },
+        {
+          "client_id": "991122215968-db3ouqv7o83il0urm9rgb8cr2l1unj6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9xYYxrHN94mqxF1oedZwD5nA_feyrxEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991122215968-db3ouqv7o83il0urm9rgb8cr2l1unj6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/faqLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:ignore="MissingConstraints"
+    android:background="@drawable/bottomsheet_bg"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faq"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:fontFamily="@font/roboto_bold"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <include layout="@layout/no_result" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/shimmer_view"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/item_solo_placeholder"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10dp"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+
+</LinearLayout>

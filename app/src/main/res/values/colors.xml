@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7985</color>
+    <color name="colorPrimaryDark">#E94484</color>
+    <color name="colorAccent">#FF7985</color>
+
+
+    <color name="bg_balance">#EDAE1E</color>
+    <color name="color_primary_light">#FFA9A9</color>
+
+    <color name="background">#F6F6F6</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="shimmerColor">#C2C2C2</color>
+    <color name="daily_mission_bg">#FDCE76</color>
+    <color name="subscription_text_color">#FF9800</color>
+
+
+    <color name="colorgradient">#5e76e5</color>
+    <color name="icon_color">#21E8AC</color>
+    <color name="icon_background">#FFFFFF</color>
+
+    <!-- Text Color  -->
+    <color name="text_dark">#6B7488</color>
+    <color name="text_light">#33D9D9D9</color>
+
+    <color name="card_color_profile">#F4F4F4</color>
+    <color name="card_color_light">#373d47</color>
+    <color name="card_color">#282D37</color>
+    <color name="card_trans_color">#99282D37</color>
+
+    <color name="pink_light">#ff4fb7</color>
+    <color name="blue_light">#31e2f2</color>
+    <color name="blue_darks">#945fff</color>
+
+    <color name="grayfm">#bfbfbf</color>
+    <color name="view_divider_color_2">#DADADA</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">#252525</color>
+<!--    <color name="black">#373253</color>-->
+    <color name="yellow">#E4AF2E</color>
+    <color name="transparent">#0000</color>
+    <color name="lightblack">#1E1D1D</color>
+    <color name="white50">#FDFCFC</color>
+    <color name="bg_color">#eee</color>
+    <color name="lightgrey">#EEEEEE</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="tab_background">#D8DEE8</color>
+
+    <color name="blue_dark">#3659A2</color>
+    <color name="blue">#3559A3</color>
+    <color name="gold">#FEB337</color>
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="pink">#fe485a</color>
+    <color name="view_line">#d4d9d5</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#43A047</color>
+    <color name="light_blue">#3c5b9b</color>
+
+    <color name="social_ggle">#ea4235</color>
+    <color name="white_background">#E7E3E3</color>
+
+    <!--    <color name="view_line">#d4d9d5</color>-->
+
+    <!--gradient colors-->
+    <color name="gradientOrange">#FF416C</color>
+    <color name="gradientViolet">#8A52E9</color>
+    <color name="gradientLightYellow">#FFA72F</color>
+    <color name="gradientLightOrange">#FF641A</color>
+    <color name="gradientLightYellow2">#FFC92B</color>
+    <color name="gradientLightOrange2">#FF7765</color>
+    <color name="gradientOrange3">#F7A23C</color>
+    <color name="gradientLightBlue">#376DF6</color>
+    <color name="gradientLightGreen">#21E8AC</color>
+
+    <!--colors for nongradientversion-->
+    <color name="cardColorTeal">#09CD95</color>
+    <color name="cardColorOrange">#FF651B</color>
+    <color name="cardColorYellow">#FF991F</color>
+    <color name="cardColorViolet">#8F51E3</color>
+    <color name="cardColorRed">#F94172</color>
+    <color name="gradient_color_1">#3f5efb</color>
+    <color name="gradient_color_2">#fc466b</color>
+    <color name="Spinwell140">#EBBEBDFC</color>
+    <color name="gray">#787878</color>
+
+</resources>

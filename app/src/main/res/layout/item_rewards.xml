@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5sp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5sp"
+    android:elevation="2dp"
+    app:shape_dot_radius="3dp"
+    app:shape_dot_spacing="2dp"
+    app:shape_dottedEdgesCutCorner_bottomLeftSize="8dp"
+    app:shape_dottedEdgesCutCorner_bottomRightSize="8dp"
+    app:shape_dottedEdgesCutCorner_topLeftSize="8dp"
+    app:shape_dottedEdgesCutCorner_topRightSize="8dp"
+    app:shape_edge_position="right|left|top|bottom">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_0"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.20" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_start"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_end"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.99" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/guide_start"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/placeholder"
+                app:riv_corner_radius="5dp" />
+
+        </RelativeLayout>
+
+        <io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:elevation="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/guide_start"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shape_dot_radius="3dp"
+            app:shape_dot_spacing="2dp"
+            app:shape_dottedEdgesCutCorner_bottomRightSize="8dp"
+            app:shape_dottedEdgesCutCorner_topRightSize="8dp"
+            app:shape_edge_position="right|top|bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/tab_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:text="$15"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="2dp">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottie"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:elevation="5dp"
+                        android:scaleType="fitXY"
+                        android:scaleX="2.8"
+                        android:scaleY="2.8"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/coin" />
+
+                    <TextView
+                        android:id="@+id/coin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/_00000"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="5dp"
+                    app:shape_dot_radius="3dp"
+                    app:shape_dot_spacing="2dp"
+                    app:shape_edge_position="top">
+
+                    <LinearLayout
+                        android:id="@+id/stockLyt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/stock"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/roboto_medium"
+                            android:gravity="start"
+                            android:maxLines="1"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView>
+            </LinearLayout>
+
+        </io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.40" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</io.github.florent37.shapeofview.shapes.DottedEdgesCutCornerView>

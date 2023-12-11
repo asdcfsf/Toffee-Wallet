@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:LuckyWheel="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_spin"
+    tools:context=".activities.SpinActivity">
+
+    <RelativeLayout
+        android:id="@+id/topLyt"
+        android:layout_width="match_parent"
+        LuckyWheel:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="?attr/actionBarSize"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/back"
+            app:cardCornerRadius="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/ic_arrow_back" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/back"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/lucky_spin"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/faq"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_help" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_upgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone">
+
+        <include layout="@layout/layout_upgrade" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/spinnerRing"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_260sdp"
+        LuckyWheel:layout_constraintStart_toStartOf="parent"
+        LuckyWheel:layout_constraintEnd_toEndOf="parent"
+        android:elevation="2dp"
+        LuckyWheel:layout_constraintTop_toTopOf="parent"
+        LuckyWheel:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spin_border2" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_250sdp"
+        LuckyWheel:layout_constraintStart_toStartOf="parent"
+        LuckyWheel:layout_constraintEnd_toEndOf="parent"
+        LuckyWheel:layout_constraintTop_toTopOf="parent"
+        LuckyWheel:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.bluehomestudio.luckywheel.LuckyWheel
+            android:id="@+id/luckyWheel"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_centerInParent="true"
+            android:foreground="@drawable/spin_background"
+            LuckyWheel:background_color="#290e44"
+            LuckyWheel:arrow_image="@drawable/spintriangle"
+            LuckyWheel:image_padding="2dp"
+            LuckyWheel:square_layout="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/spin_holder"
+            android:text="@string/play"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="205dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_btn"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        LuckyWheel:layout_constraintTop_toBottomOf="@+id/relativeLayout5">
+
+        <ImageView
+            android:id="@+id/icClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:src="@drawable/ic_flame"
+            />
+
+        <TextView
+            android:id="@+id/tvPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/spin"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_gravity="center|center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/_0"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_gravity="center|center_horizontal"
+            />
+
+
+    </RelativeLayout>
+
+
+    <com.ads.androidsdk.sdk.format.BannerLayout
+        android:id="@+id/BANNER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        LuckyWheel:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

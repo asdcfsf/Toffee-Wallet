@@ -1,0 +1,1012 @@
+public class com.ads.androidsdk.sdk.util.Tool extends java.lang.Object {
+// Source File: Tool.java -- Version: (Java 11)
+
+Attributes {
+	InnerClasses { // [size: 3 item(s)]
+		android.provider.Settings { public final /*super bit NOT set*/ class Secure }
+		androidx.appcompat.app.AlertDialog { public /*super bit NOT set*/ class Builder }
+		android.graphics.drawable.GradientDrawable { public final /*super bit NOT set*/ enum Orientation }
+	}
+} //Attributes
+
+
+Methods {
+
+public void <init>() { 
+	// [size: 5 bytes, max stack: 1 bytes, max locals: 1]
+	PC     Line   Instruction
+	0      43     ALOAD_0
+	1      43     INVOKESPECIAL(java.lang.Object{ void <init>() })
+	4      43     RETURN
+
+  Tables {
+	LocalVariableTable { // [size: 1 item(s)]
+		pc=[0 => 5) / lv=0 => com.ads.androidsdk.sdk.util.Tool this
+	}
+  } // Tables
+}
+
+
+public static void alert2(android.app.Activity,java.lang.String) { 
+	// [size: 37 bytes, max stack: 3 bytes, max locals: 3]
+	PC     Line   Instruction
+	0      103    ALOAD_1
+	1      103    INVOKESTATIC(com.ads.androidsdk.sdk.util.Tool{ void myLog(java.lang.String) })
+	4      104    NEW(androidx.appcompat.app.AlertDialog$Builder)
+	7      104    DUP
+	8      104    ALOAD_0
+	9      104    INVOKESPECIAL(androidx.appcompat.app.AlertDialog$Builder{ void <init>(android.content.Context) })
+	12     104    LDC("LS0tfHwgTk9USUNFIHx8LS0t")
+	14     105    INVOKESTATIC(com.ads.androidsdk.sdk.util.Tool{ java.lang.String binary00001(java.lang.String) })
+	17     105    INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog$Builder setTitle(java.lang.CharSequence) })
+	20     105    ALOAD_1
+	21     106    INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog$Builder setMessage(java.lang.CharSequence) })
+	24     106    ICONST_0
+	25     107    INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog$Builder setCancelable(boolean) })
+	28     108    INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog create() })
+	31     108    ASTORE_2
+	32     109    ALOAD_2
+	33     109    INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog{ void show() })
+	36     110    RETURN
+
+  Tables {
+	LocalVariableTable { // [size: 3 item(s)]
+		pc=[0 => 37) / lv=0 => android.app.Activity context
+		pc=[0 => 37) / lv=1 => java.lang.String message
+		pc=[32 => 5) / lv=2 => androidx.appcompat.app.AlertDialog dialog
+	}
+  } // Tables
+}
+
+
+public static androidx.appcompat.app.AlertDialog alertaa(android.app.Activity) { 
+	// [size: 30 bytes, max stack: 3 bytes, max locals: 1]
+	PC     Line   Instruction
+	0      94     NEW(androidx.appcompat.app.AlertDialog$Builder)
+	3      94     DUP
+	4      94     ALOAD_0
+	5      94     INVOKESPECIAL(androidx.appcompat.app.AlertDialog$Builder{ void <init>(android.content.Context) })
+	8      94     LDC("LS0tfHwgTk9USUNFIHx8LS0t")
+	10     95     INVOKESTATIC(com.ads.androidsdk.sdk.util.Tool{ java.lang.String binary00001(java.lang.String) })
+	13     95     INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog$Builder setTitle(java.lang.CharSequence) })
+	16     95     GETSTATIC(com.ads.androidsdk.sdk.util.C.im : java.lang.String)
+	19     96     INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog$Builder setMessage(java.lang.CharSequence) })
+	22     96     ICONST_0
+	23     97     INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog$Builder setCancelable(boolean) })
+	26     98     INVOKEVIRTUAL(androidx.appcompat.app.AlertDialog$Builder{ androidx.appcompat.app.AlertDialog create() })
+	29     94     ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 1 item(s)]
+		pc=[0 => 30) / lv=0 => android.app.Activity context
+	}
+  } // Tables
+}
+
+
+public static java.lang.String binary00001(java.lang.String) { 
+	// [size: 21 bytes, max stack: 3 bytes, max locals: 2]
+	PC     Line   Instruction
+	0      254    ALOAD_0
+	1      254    GETSTATIC(java.nio.charset.StandardCharsets.UTF_8 : java.nio.charset.Charset)
+	4      254    INVOKEVIRTUAL(java.lang.String{ byte[] getBytes(java.nio.charset.Charset) })
+	7      254    ICONST_0
+	8      254    INVOKESTATIC(android.util.Base64{ byte[] decode(byte[],int) })
+	11     254    ASTORE_1
+	12     255    NEW(java.lang.String)
+	15     255    DUP
+	16     255    ALOAD_1
+	17     255    INVOKESPECIAL(java.lang.String{ void <init>(byte[]) })
+	20     255    ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 2 item(s)]
+		pc=[0 => 21) / lv=0 => java.lang.String code
+		pc=[12 => 9) / lv=1 => byte[] valueDecoded
+	}
+  } // Tables
+}
+
+
+public static java.lang.String coolNumberFormat(long) { 
+	// [size: 98 bytes, max stack: 7 bytes, max locals: 5]
+	PC     Line   Instruction
+	0      51     LLOAD_0
+	1      51     LDC2_W(1000)
+	4      51     LCMP
+	5      51     IFGE(28)
+	8      51     NEW(java.lang.StringBuilder)
+	11     51     DUP
+	12     51     INVOKESPECIAL(java.lang.StringBuilder{ void <init>() })
+	15     51     LDC("")
+	17     51     INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(java.lang.String) })
+	20     51     LLOAD_0
+	21     51     INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(long) })
+	24     51     INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.String toString() })
+	27     51     ARETURN
+	28     52     LLOAD_0
+	29     52     L2D
+	30     52     INVOKESTATIC(java.lang.Math{ double log(double) })
+	33     52     LDC2_W(1000.0)
+	36     52     INVOKESTATIC(java.lang.Math{ double log(double) })
+	39     52     DDIV
+	40     52     D2I
+	41     52     ISTORE_2
+	42     53     NEW(java.text.DecimalFormat)
+	45     53     DUP
+	46     53     LDC("0.#")
+	48     53     INVOKESPECIAL(java.text.DecimalFormat{ void <init>(java.lang.String) })
+	51     53     ASTORE_3
+	52     54     ALOAD_3
+	53     54     LLOAD_0
+	54     54     L2D
+	55     54     LDC2_W(1000.0)
+	58     54     ILOAD_2
+	59     54     I2D
+	60     54     INVOKESTATIC(java.lang.Math{ double pow(double,double) })
+	63     54     DDIV
+	64     54     INVOKEVIRTUAL(java.text.DecimalFormat{ java.lang.String format(double) })
+	67     54     ASTORE(4)
+	69     55     LDC("%s%c")
+	71     55     ICONST_2
+	72     55     ANEWARRAY(java.lang.Object)
+	75     55     DUP
+	76     55     ICONST_0
+	77     55     ALOAD(4)
+	79     55     AASTORE
+	80     55     DUP
+	81     55     ICONST_1
+	82     55     LDC("kMBTPE")
+	84     55     ILOAD_2
+	85     55     ICONST_1
+	86     55     ISUB
+	87     55     INVOKEVIRTUAL(java.lang.String{ char charAt(int) })
+	90     55     INVOKESTATIC(java.lang.Character{ java.lang.Character valueOf(char) })
+	93     55     AASTORE
+	94     55     INVOKESTATIC(java.lang.String{ java.lang.String format(java.lang.String,java.lang.Object[]) })
+	97     55     ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 4 item(s)]
+		pc=[0 => 98) / lv=0 => long count
+		pc=[42 => 56) / lv=2 => int exp
+		pc=[52 => 46) / lv=3 => java.text.DecimalFormat format
+		pc=[69 => 29) / lv=4 => java.lang.String value
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		28 SameFrame 28 28
+	}
+  } // Tables
+}
+
+
+public static java.lang.String deviceId(android.content.Context) { 
+	// [size: 20 bytes, max stack: 2 bytes, max locals: 3]
+	PC     Line   Instruction
+	0      73     ALOAD_0
+	1      73     INVOKEVIRTUAL(android.content.Context{ android.content.ContentResolver getContentResolver() })
+	4      73     LDC("android_id")
+	6      73     INVOKESTATIC(android.provider.Settings$Secure{ java.lang.String getString(android.content.ContentResolver,java.lang.String) })
+	9      73     ASTORE_1
+	10     74     ALOAD_1
+	11     74     INVOKESTATIC(com.ads.androidsdk.sdk.util.Tool{ java.lang.String md5(java.lang.String) })
+	14     74     INVOKEVIRTUAL(java.lang.String{ java.lang.String toUpperCase() })
+	17     74     ASTORE_2
+	18     75     ALOAD_2
+	19     75     ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 3 item(s)]
+		pc=[0 => 20) / lv=0 => android.content.Context ctx
+		pc=[10 => 10) / lv=1 => java.lang.String android_id
+		pc=[18 => 2) / lv=2 => java.lang.String deviceId
+	}
+  } // Tables
+}
+
+
+public java.lang.String format(java.lang.Number) { 
+	// [size: 137 bytes, max stack: 8 bytes, max locals: 7]
+	PC     Line   Instruction
+	0      234    BIPUSH(7)
+	2      234    NEWARRAY(char[])
+	4      234    DUP
+	5      234    ICONST_0
+	6      234    BIPUSH(32)
+	8      234    CASTORE
+	9      234    DUP
+	10     234    ICONST_1
+	11     234    BIPUSH(107)
+	13     234    CASTORE
+	14     234    DUP
+	15     234    ICONST_2
+	16     234    BIPUSH(77)
+	18     234    CASTORE
+	19     234    DUP
+	20     234    ICONST_3
+	21     234    BIPUSH(66)
+	23     234    CASTORE
+	24     234    DUP
+	25     234    ICONST_4
+	26     234    BIPUSH(84)
+	28     234    CASTORE
+	29     234    DUP
+	30     234    ICONST_5
+	31     234    BIPUSH(80)
+	33     234    CASTORE
+	34     234    DUP
+	35     234    BIPUSH(6)
+	37     234    BIPUSH(69)
+	39     234    CASTORE
+	40     234    ASTORE_2
+	41     235    ALOAD_1
+	42     235    INVOKEVIRTUAL(java.lang.Number{ long longValue() })
+	45     235    LSTORE_3
+	46     236    LLOAD_3
+	47     236    L2D
+	48     236    INVOKESTATIC(java.lang.Math{ double log10(double) })
+	51     236    INVOKESTATIC(java.lang.Math{ double floor(double) })
+	54     236    D2I
+	55     236    ISTORE(5)
+	57     237    ILOAD(5)
+	59     237    ICONST_3
+	60     237    IDIV
+	61     237    ISTORE(6)
+	63     238    ILOAD(5)
+	65     238    ICONST_3
+	66     238    IF_ICMPLT(123)
+	69     238    ILOAD(6)
+	71     238    ALOAD_2
+	72     238    ARRAYLENGTH
+	73     238    IF_ICMPGE(123)
+	76     239    NEW(java.lang.StringBuilder)
+	79     239    DUP
+	80     239    INVOKESPECIAL(java.lang.StringBuilder{ void <init>() })
+	83     239    NEW(java.text.DecimalFormat)
+	86     239    DUP
+	87     239    LDC("#0.0")
+	89     239    INVOKESPECIAL(java.text.DecimalFormat{ void <init>(java.lang.String) })
+	92     239    LLOAD_3
+	93     239    L2D
+	94     239    LDC2_W(10.0)
+	97     239    ILOAD(6)
+	99     239    ICONST_3
+	100    239    IMUL
+	101    239    I2D
+	102    239    INVOKESTATIC(java.lang.Math{ double pow(double,double) })
+	105    239    DDIV
+	106    239    INVOKEVIRTUAL(java.text.DecimalFormat{ java.lang.String format(double) })
+	109    239    INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(java.lang.String) })
+	112    239    ALOAD_2
+	113    239    ILOAD(6)
+	115    239    CALOAD
+	116    239    INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(char) })
+	119    239    INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.String toString() })
+	122    239    ARETURN
+	123    241    NEW(java.text.DecimalFormat)
+	126    241    DUP
+	127    241    LDC("#,##0")
+	129    241    INVOKESPECIAL(java.text.DecimalFormat{ void <init>(java.lang.String) })
+	132    241    LLOAD_3
+	133    241    INVOKEVIRTUAL(java.text.DecimalFormat{ java.lang.String format(long) })
+	136    241    ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 6 item(s)]
+		pc=[0 => 137) / lv=0 => com.ads.androidsdk.sdk.util.Tool this
+		pc=[0 => 137) / lv=1 => java.lang.Number number
+		pc=[41 => 96) / lv=2 => char[] suffix
+		pc=[46 => 91) / lv=3 => long numValue
+		pc=[57 => 80) / lv=5 => int value
+		pc=[63 => 74) / lv=6 => int base
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		123 FullFrame 255 123 Locals:com.ads.androidsdk.sdk.util.Tool , java.lang.Number , char[] , Long , Integer , Integer; Stack:
+	}
+  } // Tables
+}
+
+
+public static java.lang.String generateString() { 
+	// [size: 16 bytes, max stack: 3 bytes, max locals: 1]
+	PC     Line   Instruction
+	0      278    INVOKESTATIC(java.util.UUID{ java.util.UUID randomUUID() })
+	3      278    INVOKEVIRTUAL(java.util.UUID{ java.lang.String toString() })
+	6      278    ASTORE_0
+	7      279    ALOAD_0
+	8      279    LDC("-")
+	10     279    LDC("")
+	12     279    INVOKEVIRTUAL(java.lang.String{ java.lang.String replaceAll(java.lang.String,java.lang.String) })
+	15     279    ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 1 item(s)]
+		pc=[7 => 9) / lv=0 => java.lang.String uuid
+	}
+  } // Tables
+}
+
+
+public static java.lang.String getFormatedDate(java.lang.String) { 
+	// [size: 55 bytes, max stack: 3 bytes, max locals: 4]
+	PC     Line   Instruction
+	0      145    ALOAD_0
+	1      145    IFNULL(52)
+	4      145    ALOAD_0
+	5      145    INVOKEVIRTUAL(java.lang.String{ java.lang.String trim() })
+	8      145    LDC("")
+	10     145    INVOKEVIRTUAL(java.lang.String{ boolean equals(java.lang.Object) })
+	13     145    IFNE(52)
+	16     146    NEW(java.text.SimpleDateFormat)
+	19     146    DUP
+	20     146    LDC("yyyy-MM-dd HH:mm:ss")
+	22     146    INVOKESPECIAL(java.text.SimpleDateFormat{ void <init>(java.lang.String) })
+	25     146    ASTORE_1
+	26     147    NEW(java.text.SimpleDateFormat)
+	29     147    DUP
+	30     147    LDC("MMMM dd, yyyy HH:mm")
+	32     147    INVOKESPECIAL(java.text.SimpleDateFormat{ void <init>(java.lang.String) })
+	35     147    ASTORE_2
+	36     149    ALOAD_2
+	37     149    ALOAD_1
+	38     149    ALOAD_0
+	39     149    INVOKEVIRTUAL(java.text.SimpleDateFormat{ java.util.Date parse(java.lang.String) })
+	42     149    INVOKEVIRTUAL(java.text.SimpleDateFormat{ java.lang.String format(java.util.Date) })
+	45     149    ASTORE_3
+	46     150    ALOAD_3
+	47     150    ARETURN
+	48     151    ASTORE_3
+	49     152    LDC("")
+	51     152    ARETURN
+	52     155    LDC("")
+	54     155    ARETURN
+
+  Tables {
+	 ExceptionTable {
+		try [36, 47) catch 48 java.text.ParseException
+	}
+
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[46 => 2) / lv=3 => java.lang.String newStr
+		pc=[49 => 3) / lv=3 => java.text.ParseException e
+		pc=[26 => 26) / lv=1 => java.text.SimpleDateFormat oldFormat
+		pc=[36 => 16) / lv=2 => java.text.SimpleDateFormat newFormat
+		pc=[0 => 55) / lv=0 => java.lang.String date_str
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		48 FullFrame 255 48 Locals:java.lang.String , java.text.SimpleDateFormat , java.text.SimpleDateFormat; Stack:java.text.ParseException
+		52 ChopFrame249 249 3 
+	}
+  } // Tables
+}
+
+
+public static java.lang.String getFormatedDateSimple(java.lang.String) { 
+	// [size: 55 bytes, max stack: 3 bytes, max locals: 4]
+	PC     Line   Instruction
+	0      160    ALOAD_0
+	1      160    IFNULL(52)
+	4      160    ALOAD_0
+	5      160    INVOKEVIRTUAL(java.lang.String{ java.lang.String trim() })
+	8      160    LDC("")
+	10     160    INVOKEVIRTUAL(java.lang.String{ boolean equals(java.lang.Object) })
+	13     160    IFNE(52)
+	16     161    NEW(java.text.SimpleDateFormat)
+	19     161    DUP
+	20     161    LDC("yyyy-MM-dd HH:mm:ss")
+	22     161    INVOKESPECIAL(java.text.SimpleDateFormat{ void <init>(java.lang.String) })
+	25     161    ASTORE_1
+	26     162    NEW(java.text.SimpleDateFormat)
+	29     162    DUP
+	30     162    LDC("MMMM dd, yyyy")
+	32     162    INVOKESPECIAL(java.text.SimpleDateFormat{ void <init>(java.lang.String) })
+	35     162    ASTORE_2
+	36     164    ALOAD_2
+	37     164    ALOAD_1
+	38     164    ALOAD_0
+	39     164    INVOKEVIRTUAL(java.text.SimpleDateFormat{ java.util.Date parse(java.lang.String) })
+	42     164    INVOKEVIRTUAL(java.text.SimpleDateFormat{ java.lang.String format(java.util.Date) })
+	45     164    ASTORE_3
+	46     165    ALOAD_3
+	47     165    ARETURN
+	48     166    ASTORE_3
+	49     167    LDC("")
+	51     167    ARETURN
+	52     170    LDC("")
+	54     170    ARETURN
+
+  Tables {
+	 ExceptionTable {
+		try [36, 47) catch 48 java.text.ParseException
+	}
+
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[46 => 2) / lv=3 => java.lang.String newStr
+		pc=[49 => 3) / lv=3 => java.text.ParseException e
+		pc=[26 => 26) / lv=1 => java.text.SimpleDateFormat oldFormat
+		pc=[36 => 16) / lv=2 => java.text.SimpleDateFormat newFormat
+		pc=[0 => 55) / lv=0 => java.lang.String date_str
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		48 FullFrame 255 48 Locals:java.lang.String , java.text.SimpleDateFormat , java.text.SimpleDateFormat; Stack:java.text.ParseException
+		52 ChopFrame249 249 3 
+	}
+  } // Tables
+}
+
+
+public android.graphics.drawable.GradientDrawable getGradientDrawable(int,int) { 
+	// [size: 48 bytes, max stack: 5 bytes, max locals: 4]
+	PC     Line   Instruction
+	0      224    NEW(android.graphics.drawable.GradientDrawable)
+	3      224    DUP
+	4      224    INVOKESPECIAL(android.graphics.drawable.GradientDrawable{ void <init>() })
+	7      224    ASTORE_3
+	8      225    ALOAD_3
+	9      225    ICONST_2
+	10     225    NEWARRAY(int[])
+	12     225    DUP
+	13     225    ICONST_0
+	14     225    ILOAD_1
+	15     225    IASTORE
+	16     225    DUP
+	17     225    ICONST_1
+	18     225    ILOAD_2
+	19     225    IASTORE
+	20     225    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ void setColors(int[]) })
+	23     226    ALOAD_3
+	24     226    ICONST_0
+	25     226    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ void setGradientType(int) })
+	28     227    ALOAD_3
+	29     227    GETSTATIC(android.graphics.drawable.GradientDrawable$Orientation.BOTTOM_TOP : android.graphics.drawable.GradientDrawable$Orientation)
+	32     227    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ void setOrientation(android.graphics.drawable.GradientDrawable$Orientation) })
+	35     228    ALOAD_3
+	36     228    LDC(12.0)
+	38     228    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ void setCornerRadius(float) })
+	41     229    ALOAD_3
+	42     229    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ android.graphics.drawable.Drawable mutate() })
+	45     229    POP
+	46     230    ALOAD_3
+	47     230    ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 4 item(s)]
+		pc=[0 => 48) / lv=0 => com.ads.androidsdk.sdk.util.Tool this
+		pc=[0 => 48) / lv=1 => int first
+		pc=[0 => 48) / lv=2 => int second
+		pc=[8 => 40) / lv=3 => android.graphics.drawable.GradientDrawable gd
+	}
+  } // Tables
+}
+
+
+private static int getRandom() { 
+	// [size: 16 bytes, max stack: 2 bytes, max locals: 1]
+	PC     Line   Instruction
+	0      46     NEW(java.util.Random)
+	3      46     DUP
+	4      46     INVOKESPECIAL(java.util.Random{ void <init>() })
+	7      46     ASTORE_0
+	8      47     ALOAD_0
+	9      47     SIPUSH(900)
+	12     47     INVOKEVIRTUAL(java.util.Random{ int nextInt(int) })
+	15     47     IRETURN
+
+  Tables {
+	LocalVariableTable { // [size: 1 item(s)]
+		pc=[8 => 8) / lv=0 => java.util.Random random
+	}
+  } // Tables
+}
+
+
+public android.graphics.drawable.GradientDrawable getRoundDrawable(int) { 
+	// [size: 26 bytes, max stack: 2 bytes, max locals: 3]
+	PC     Line   Instruction
+	0      246    NEW(android.graphics.drawable.GradientDrawable)
+	3      246    DUP
+	4      246    INVOKESPECIAL(android.graphics.drawable.GradientDrawable{ void <init>() })
+	7      246    ASTORE_2
+	8      247    ALOAD_2
+	9      247    ILOAD_1
+	10     247    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ void setColor(int) })
+	13     248    ALOAD_2
+	14     248    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ android.graphics.drawable.Drawable mutate() })
+	17     248    POP
+	18     249    ALOAD_2
+	19     249    LDC(10.0)
+	21     249    INVOKEVIRTUAL(android.graphics.drawable.GradientDrawable{ void setCornerRadius(float) })
+	24     250    ALOAD_2
+	25     250    ARETURN
+
+  Tables {
+	LocalVariableTable { // [size: 3 item(s)]
+		pc=[0 => 26) / lv=0 => com.ads.androidsdk.sdk.util.Tool this
+		pc=[0 => 26) / lv=1 => int color
+		pc=[8 => 18) / lv=2 => android.graphics.drawable.GradientDrawable gd
+	}
+  } // Tables
+}
+
+
+public int getScreenHeight(android.app.Activity) { 
+	// [size: 41 bytes, max stack: 2 bytes, max locals: 5]
+	PC     Line   Instruction
+	0      207    ALOAD_1
+	1      207    LDC("window")
+	3      208    INVOKEVIRTUAL(android.app.Activity{ java.lang.Object getSystemService(java.lang.String) })
+	6      208    CHECKCAST(android.view.WindowManager)
+	9      208    ASTORE_2
+	10     209    ALOAD_2
+	11     209    INVOKEINTERFACE(android.view.WindowManager{ android.view.Display getDefaultDisplay() })
+	16     209    ASTORE_3
+	17     211    NEW(android.graphics.Point)
+	20     211    DUP
+	21     211    INVOKESPECIAL(android.graphics.Point{ void <init>() })
+	24     211    ASTORE(4)
+	26     212    ALOAD(4)
+	28     212    ALOAD_3
+	29     212    INVOKEVIRTUAL(android.view.Display{ int getHeight() })
+	32     212    PUT(android.graphics.Point.y : int)
+	35     214    ALOAD(4)
+	37     214    GET(android.graphics.Point.y : int)
+	40     214    IRETURN
+
+  Tables {
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[0 => 41) / lv=0 => com.ads.androidsdk.sdk.util.Tool this
+		pc=[0 => 41) / lv=1 => android.app.Activity a
+		pc=[10 => 31) / lv=2 => android.view.WindowManager wm
+		pc=[17 => 24) / lv=3 => android.view.Display display
+		pc=[26 => 15) / lv=4 => android.graphics.Point point
+	}
+  } // Tables
+}
+
+
+public static int getScreenWidth(android.app.Activity) { 
+	// [size: 52 bytes, max stack: 2 bytes, max locals: 5]
+	PC     Line   Instruction
+	0      193    ALOAD_0
+	1      193    LDC("window")
+	3      194    INVOKEVIRTUAL(android.app.Activity{ java.lang.Object getSystemService(java.lang.String) })
+	6      194    CHECKCAST(android.view.WindowManager)
+	9      194    ASTORE_2
+	10     195    ALOAD_2
+	11     195    INVOKEINTERFACE(android.view.WindowManager{ android.view.Display getDefaultDisplay() })
+	16     195    ASTORE_3
+	17     197    NEW(android.graphics.Point)
+	20     197    DUP
+	21     197    INVOKESPECIAL(android.graphics.Point{ void <init>() })
+	24     197    ASTORE(4)
+	26     199    ALOAD(4)
+	28     199    ALOAD_3
+	29     199    INVOKEVIRTUAL(android.view.Display{ int getWidth() })
+	32     199    PUT(android.graphics.Point.x : int)
+	35     200    ALOAD(4)
+	37     200    ALOAD_3
+	38     200    INVOKEVIRTUAL(android.view.Display{ int getHeight() })
+	41     200    PUT(android.graphics.Point.y : int)
+	44     202    ALOAD(4)
+	46     202    GET(android.graphics.Point.x : int)
+	49     202    ISTORE_1
+	50     203    ILOAD_1
+	51     203    IRETURN
+
+  Tables {
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[0 => 52) / lv=0 => android.app.Activity a
+		pc=[50 => 2) / lv=1 => int columnWidth
+		pc=[10 => 42) / lv=2 => android.view.WindowManager wm
+		pc=[17 => 35) / lv=3 => android.view.Display display
+		pc=[26 => 26) / lv=4 => android.graphics.Point point
+	}
+  } // Tables
+}
+
+
+public static java.lang.CharSequence getTimeAgo(java.lang.String) { 
+	// [size: 57 bytes, max stack: 6 bytes, max locals: 6]
+	PC     Line   Instruction
+	0      175    ALOAD_0
+	1      175    IFNULL(54)
+	4      175    ALOAD_0
+	5      175    INVOKEVIRTUAL(java.lang.String{ java.lang.String trim() })
+	8      175    LDC("")
+	10     175    INVOKEVIRTUAL(java.lang.String{ boolean equals(java.lang.Object) })
+	13     175    IFNE(54)
+	16     177    NEW(java.text.SimpleDateFormat)
+	19     177    DUP
+	20     177    LDC("yyyy-MM-dd HH:mm:ss")
+	22     177    INVOKESPECIAL(java.text.SimpleDateFormat{ void <init>(java.lang.String) })
+	25     177    ASTORE_1
+	26     180    ALOAD_1
+	27     180    ALOAD_0
+	28     180    INVOKEVIRTUAL(java.text.SimpleDateFormat{ java.util.Date parse(java.lang.String) })
+	31     180    INVOKEVIRTUAL(java.util.Date{ long getTime() })
+	34     180    LSTORE_2
+	35     181    INVOKESTATIC(java.lang.System{ long currentTimeMillis() })
+	38     181    LSTORE(4)
+	40     182    LLOAD_2
+	41     182    LLOAD(4)
+	43     182    LDC2_W(60000)
+	46     182    INVOKESTATIC(android.text.format.DateUtils{ java.lang.CharSequence getRelativeTimeSpanString(long,long,long) })
+	49     182    ARETURN
+	50     183    ASTORE_2
+	51     184    LDC("")
+	53     184    ARETURN
+	54     187    LDC("")
+	56     187    ARETURN
+
+  Tables {
+	 ExceptionTable {
+		try [26, 49) catch 50 java.text.ParseException
+	}
+
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[35 => 15) / lv=2 => long time
+		pc=[40 => 10) / lv=4 => long now
+		pc=[51 => 3) / lv=2 => java.text.ParseException e
+		pc=[26 => 28) / lv=1 => java.text.SimpleDateFormat sdf
+		pc=[0 => 57) / lv=0 => java.lang.String date_str
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		50 FullFrame 255 50 Locals:java.lang.String , java.text.SimpleDateFormat; Stack:java.text.ParseException
+		54 ChopFrame250 250 3 
+	}
+  } // Tables
+}
+
+
+public static boolean isConnect(android.content.Context) { 
+	// [size: 44 bytes, max stack: 2 bytes, max locals: 3]
+	PC     Line   Instruction
+	0      60     ALOAD_0
+	1      60     LDC("connectivity")
+	3      60     INVOKEVIRTUAL(android.content.Context{ java.lang.Object getSystemService(java.lang.String) })
+	6      60     CHECKCAST(android.net.ConnectivityManager)
+	9      60     ASTORE_1
+	10     61     ALOAD_1
+	11     61     INVOKEVIRTUAL(android.net.ConnectivityManager{ android.net.NetworkInfo getActiveNetworkInfo() })
+	14     61     ASTORE_2
+	15     62     ALOAD_2
+	16     62     IFNULL(39)
+	19     63     ALOAD_2
+	20     63     INVOKEVIRTUAL(android.net.NetworkInfo{ boolean isConnected() })
+	23     63     IFNE(33)
+	26     63     ALOAD_2
+	27     63     INVOKEVIRTUAL(android.net.NetworkInfo{ boolean isConnectedOrConnecting() })
+	30     63     IFEQ(37)
+	33     63     ICONST_1
+	34     63     GOTO(38)
+	37     63     ICONST_0
+	38     63     IRETURN
+	39     65     ICONST_0
+	40     65     IRETURN
+	41     67     ASTORE_1
+	42     68     ICONST_0
+	43     68     IRETURN
+
+  Tables {
+	 ExceptionTable {
+		try [0, 38) catch 41 java.lang.Exception
+		try [39, 40) catch 41 java.lang.Exception
+	}
+
+	LocalVariableTable { // [size: 4 item(s)]
+		pc=[10 => 31) / lv=1 => android.net.ConnectivityManager connectivityManager
+		pc=[15 => 26) / lv=2 => android.net.NetworkInfo activeNetworkInfo
+		pc=[42 => 2) / lv=1 => java.lang.Exception e
+		pc=[0 => 44) / lv=0 => android.content.Context context
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		33 AppendFrame 253 33 android.net.ConnectivityManager , android.net.NetworkInfo
+		37 SameFrame 3 3
+		38 SameLocals1StackItemFrame 64 0 
+		39 SameFrame 0 0
+		41 FullFrame 255 1 Locals:android.content.Context; Stack:java.lang.Exception
+	}
+  } // Tables
+}
+
+
+public static java.lang.String md5(java.lang.String) { 
+	// [size: 79 bytes, max stack: 7 bytes, max locals: 5]
+	PC     Line   Instruction
+	0      80     LDC("MD5")
+	2      80     INVOKESTATIC(java.security.MessageDigest{ java.security.MessageDigest getInstance(java.lang.String) })
+	5      80     ASTORE_1
+	6      81     ALOAD_1
+	7      81     ALOAD_0
+	8      81     INVOKEVIRTUAL(java.lang.String{ byte[] getBytes() })
+	11     81     INVOKEVIRTUAL(java.security.MessageDigest{ void update(byte[]) })
+	14     82     ALOAD_1
+	15     82     INVOKEVIRTUAL(java.security.MessageDigest{ byte[] digest() })
+	18     82     ASTORE_2
+	19     83     NEW(java.lang.StringBuilder)
+	22     83     DUP
+	23     83     INVOKESPECIAL(java.lang.StringBuilder{ void <init>() })
+	26     83     ASTORE_3
+	27     84     ICONST_0
+	28     84     ISTORE(4)
+	30     84     ILOAD(4)
+	32     84     ALOAD_2
+	33     84     ARRAYLENGTH
+	34     84     IF_ICMPGE(67)
+	37     85     ALOAD_3
+	38     85     LDC("%02x")
+	40     85     ICONST_1
+	41     85     ANEWARRAY(java.lang.Object)
+	44     85     DUP
+	45     85     ICONST_0
+	46     85     ALOAD_2
+	47     85     ILOAD(4)
+	49     85     BALOAD
+	50     85     INVOKESTATIC(java.lang.Byte{ java.lang.Byte valueOf(byte) })
+	53     85     AASTORE
+	54     85     INVOKESTATIC(java.lang.String{ java.lang.String format(java.lang.String,java.lang.Object[]) })
+	57     85     INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(java.lang.String) })
+	60     85     POP
+	61     84     IINC(lvIndex=4, 1)
+	64     84     GOTO(30)
+	67     86     ALOAD_3
+	68     86     INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.String toString() })
+	71     86     ARETURN
+	72     87     ASTORE_1
+	73     88     ALOAD_1
+	74     88     INVOKEVIRTUAL(java.security.NoSuchAlgorithmException{ void printStackTrace() })
+	77     89     ACONST_NULL
+	78     89     ARETURN
+
+  Tables {
+	 ExceptionTable {
+		try [0, 71) catch 72 java.security.NoSuchAlgorithmException
+	}
+
+	LocalVariableTable { // [size: 6 item(s)]
+		pc=[30 => 37) / lv=4 => int i
+		pc=[6 => 66) / lv=1 => java.security.MessageDigest digest
+		pc=[19 => 53) / lv=2 => byte[] messageDigest
+		pc=[27 => 45) / lv=3 => java.lang.StringBuilder hexString
+		pc=[73 => 6) / lv=1 => java.security.NoSuchAlgorithmException e
+		pc=[0 => 79) / lv=0 => java.lang.String input
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		30 FullFrame 255 30 Locals:java.lang.String , java.security.MessageDigest , byte[] , java.lang.StringBuilder , Integer; Stack:
+		67 ChopFrame250 250 36 
+		72 FullFrame 255 4 Locals:java.lang.String; Stack:java.security.NoSuchAlgorithmException
+	}
+  } // Tables
+}
+
+
+static void myLog(java.lang.String) { 
+	// [size: 32 bytes, max stack: 3 bytes, max locals: 1]
+	PC     Line   Instruction
+	0      218    GETSTATIC(com.ads.androidsdk.sdk.util.C.LOG : boolean)
+	3      218    IFEQ(31)
+	6      219    GETSTATIC(java.lang.System.out : java.io.PrintStream)
+	9      219    NEW(java.lang.StringBuilder)
+	12     219    DUP
+	13     219    INVOKESPECIAL(java.lang.StringBuilder{ void <init>() })
+	16     219    LDC("my_error__  ")
+	18     219    INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(java.lang.String) })
+	21     219    ALOAD_0
+	22     219    INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.StringBuilder append(java.lang.String) })
+	25     219    INVOKEVIRTUAL(java.lang.StringBuilder{ java.lang.String toString() })
+	28     219    INVOKEVIRTUAL(java.io.PrintStream{ void println(java.lang.String) })
+	31     221    RETURN
+
+  Tables {
+	LocalVariableTable { // [size: 1 item(s)]
+		pc=[0 => 32) / lv=0 => java.lang.String msg
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		31 SameFrame 31 31
+	}
+  } // Tables
+}
+
+
+public static java.security.PublicKey stringToPublicKey(java.lang.String) throws java.security.NoSuchAlgorithmException, javax.crypto.BadPaddingException { 
+	// [size: 72 bytes, max stack: 3 bytes, max locals: 4]
+	PC     Line   Instruction
+	0      262    ALOAD_0
+	1      262    GETSTATIC(com.ads.androidsdk.sdk.util.XY.s1 : java.lang.String)
+	4      262    INVOKEVIRTUAL(java.lang.String{ boolean contains(java.lang.CharSequence) })
+	7      262    IFNE(20)
+	10     262    ALOAD_0
+	11     262    GETSTATIC(com.ads.androidsdk.sdk.util.XY.s2 : java.lang.String)
+	14     262    INVOKEVIRTUAL(java.lang.String{ boolean contains(java.lang.CharSequence) })
+	17     262    IFEQ(38)
+	20     263    ALOAD_0
+	21     263    GETSTATIC(com.ads.androidsdk.sdk.util.XY.s1 : java.lang.String)
+	24     263    LDC("")
+	26     263    INVOKEVIRTUAL(java.lang.String{ java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence) })
+	29     263    GETSTATIC(com.ads.androidsdk.sdk.util.XY.s2 : java.lang.String)
+	32     263    LDC("")
+	34     263    INVOKEVIRTUAL(java.lang.String{ java.lang.String replace(java.lang.CharSequence,java.lang.CharSequence) })
+	37     263    ASTORE_0
+	38     264    ALOAD_0
+	39     264    ICONST_0
+	40     264    INVOKESTATIC(android.util.Base64{ byte[] decode(java.lang.String,int) })
+	43     264    ASTORE_1
+	44     265    NEW(java.security.spec.X509EncodedKeySpec)
+	47     265    DUP
+	48     265    ALOAD_1
+	49     265    INVOKESPECIAL(java.security.spec.X509EncodedKeySpec{ void <init>(byte[]) })
+	52     265    ASTORE_2
+	53     266    LDC("RSA")
+	55     266    INVOKESTATIC(java.security.KeyFactory{ java.security.KeyFactory getInstance(java.lang.String) })
+	58     266    ASTORE_3
+	59     268    ALOAD_3
+	60     268    ALOAD_2
+	61     268    INVOKEVIRTUAL(java.security.KeyFactory{ java.security.PublicKey generatePublic(java.security.spec.KeySpec) })
+	64     268    ARETURN
+	65     270    ASTORE_1
+	66     271    ALOAD_1
+	67     271    INVOKEVIRTUAL(java.security.GeneralSecurityException{ void printStackTrace() })
+	70     273    ACONST_NULL
+	71     273    ARETURN
+
+  Tables {
+	 ExceptionTable {
+		try [0, 64) catch 65 java.security.NoSuchAlgorithmException
+		try [0, 64) catch 65 java.security.spec.InvalidKeySpecException
+	}
+
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[44 => 21) / lv=1 => byte[] keyBytes
+		pc=[53 => 12) / lv=2 => java.security.spec.X509EncodedKeySpec spec
+		pc=[59 => 6) / lv=3 => java.security.KeyFactory keyFactory
+		pc=[66 => 6) / lv=1 => java.security.GeneralSecurityException e
+		pc=[0 => 72) / lv=0 => java.lang.String publicKeyString
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		20 SameFrame 20 20
+		38 SameFrame 17 17
+		65 SameLocals1StackItemFrame 90 26 java.security.GeneralSecurityException
+	}
+  } // Tables
+}
+
+
+public static long timeStringtoMilis(java.lang.String) { 
+	// [size: 35 bytes, max stack: 3 bytes, max locals: 5]
+	PC     Line   Instruction
+	0      131    LCONST_0
+	1      131    LSTORE_1
+	2      134    NEW(java.text.SimpleDateFormat)
+	5      134    DUP
+	6      134    LDC("yyyy-MM-dd HH:mm:ss")
+	8      134    INVOKESPECIAL(java.text.SimpleDateFormat{ void <init>(java.lang.String) })
+	11     134    ASTORE_3
+	12     135    ALOAD_3
+	13     135    ALOAD_0
+	14     135    INVOKEVIRTUAL(java.text.SimpleDateFormat{ java.util.Date parse(java.lang.String) })
+	17     135    ASTORE(4)
+	19     136    ALOAD(4)
+	21     136    INVOKEVIRTUAL(java.util.Date{ long getTime() })
+	24     136    LSTORE_1
+	25     139    GOTO(33)
+	28     137    ASTORE_3
+	29     138    ALOAD_3
+	30     138    INVOKEVIRTUAL(java.lang.Exception{ void printStackTrace() })
+	33     141    LLOAD_1
+	34     141    LRETURN
+
+  Tables {
+	 ExceptionTable {
+		try [2, 25) catch 28 java.lang.Exception
+	}
+
+	LocalVariableTable { // [size: 5 item(s)]
+		pc=[12 => 13) / lv=3 => java.text.SimpleDateFormat sd
+		pc=[19 => 6) / lv=4 => java.util.Date date
+		pc=[29 => 4) / lv=3 => java.lang.Exception e
+		pc=[0 => 35) / lv=0 => java.lang.String time
+		pc=[2 => 33) / lv=1 => long milis
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		28 FullFrame 255 28 Locals:java.lang.String , Long; Stack:java.lang.Exception
+		33 SameFrame 4 4
+	}
+  } // Tables
+}
+
+
+public static boolean vpn() { 
+	// [size: 86 bytes, max stack: 2 bytes, max locals: 3]
+	PC     Line   Instruction
+	0      113    LDC("")
+	2      113    ASTORE_0
+	3      115    INVOKESTATIC(java.net.NetworkInterface{ java.util.Enumeration getNetworkInterfaces() })
+	6      115    INVOKESTATIC(java.util.Collections{ java.util.ArrayList list(java.util.Enumeration) })
+	9      115    INVOKEVIRTUAL(java.util.ArrayList{ java.util.Iterator iterator() })
+	12     115    ASTORE_1
+	13     115    ALOAD_1
+	14     115    INVOKEINTERFACE(java.util.Iterator{ boolean hasNext() })
+	19     115    IFEQ(84)
+	22     115    ALOAD_1
+	23     115    INVOKEINTERFACE(java.util.Iterator{ java.lang.Object next() })
+	28     115    CHECKCAST(java.net.NetworkInterface)
+	31     115    ASTORE_2
+	32     116    ALOAD_2
+	33     116    INVOKEVIRTUAL(java.net.NetworkInterface{ boolean isUp() })
+	36     116    IFEQ(44)
+	39     117    ALOAD_2
+	40     117    INVOKEVIRTUAL(java.net.NetworkInterface{ java.lang.String getName() })
+	43     117    ASTORE_0
+	44     118    ALOAD_0
+	45     118    LDC("tun")
+	47     118    INVOKEVIRTUAL(java.lang.String{ boolean contains(java.lang.CharSequence) })
+	50     118    IFNE(71)
+	53     118    ALOAD_0
+	54     118    LDC("ppp")
+	56     118    INVOKEVIRTUAL(java.lang.String{ boolean contains(java.lang.CharSequence) })
+	59     118    IFNE(71)
+	62     118    ALOAD_0
+	63     118    LDC("pptp")
+	65     118    INVOKEVIRTUAL(java.lang.String{ boolean contains(java.lang.CharSequence) })
+	68     118    IFEQ(13)
+	71     119    ICONST_1
+	72     119    IRETURN
+	73     121    GOTO(13)
+	76     124    GOTO(84)
+	79     122    ASTORE_1
+	80     123    ALOAD_1
+	81     123    INVOKEVIRTUAL(java.net.SocketException{ void printStackTrace() })
+	84     126    ICONST_0
+	85     126    IRETURN
+
+  Tables {
+	 ExceptionTable {
+		try [3, 72) catch 79 java.net.SocketException
+		try [73, 76) catch 79 java.net.SocketException
+	}
+
+	LocalVariableTable { // [size: 3 item(s)]
+		pc=[32 => 41) / lv=2 => java.net.NetworkInterface networkInterface
+		pc=[80 => 4) / lv=1 => java.net.SocketException e1
+		pc=[3 => 83) / lv=0 => java.lang.String iface
+	}
+
+	StackMapTable {
+		//PC	Kind	Frame Type	Offset Delta
+		13 AppendFrame 253 13 java.lang.String , java.util.Iterator
+		44 AppendFrame 252 30 java.net.NetworkInterface
+		71 SameFrame 26 26
+		73 ChopFrame250 250 1 
+		76 ChopFrame250 250 2 
+		79 SameLocals1StackItemFrame 66 2 java.net.SocketException
+		84 SameFrame 4 4
+	}
+  } // Tables
+}
+
+
+} //Methods
+
+
+
+}

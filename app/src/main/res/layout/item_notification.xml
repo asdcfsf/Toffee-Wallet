@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5sp"
+    android:layout_marginStart="@dimen/margin_10dp"
+    android:layout_marginEnd="@dimen/margin_10dp"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="#D8DEE8"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/lytNoti"
+            android:layout_width="55dp"
+            android:layout_margin="10dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_btn">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_noti" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:layout_toEndOf="@id/lytNoti"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/notification"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:layout_toEndOf="@id/lytNoti"
+            android:alpha="0.8"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/dummy_text"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvmsg"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="1"
+            android:text="@string/date"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

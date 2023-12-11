@@ -1,0 +1,482 @@
+<resources>
+    <string name="lucky_spin">تدور محظوظ</string>
+    <string name="scratch_win">بطاقة الخدش></string>
+    <string name="playzone">منطقة اللعب</string>
+    <string name="videozone">منطقة الفيديو</string>
+    <string name="read_artical">اقرأ المادة</string>
+    <string name="my_promotion">ترقيتي</string>
+    <string name="play_for_reward">العب للمكافأة</string>
+    <string name="read_artical_offer_get_reward">قراءة المقالة &amp;؛ عرض كامل الحصول على مكافأة></string>
+    <string name="daily_bonus">مكافأة اليومية</string>
+
+    <string name="Activity_ABOUTUS">معلومات عنا</string>
+    <string name="Activity_Collect_REDEEM">جمع الاسترداد</string>
+    <string name="Activity_Complete_OFFER">عرض كامل</string>
+    <string name="Activity_FAQ">التعليمات</string>
+    <string name="Activity_Instruction">تعليمات</string>
+    <string name="Activity_GAMES">ألعاب</string>
+    <string name="Activity_QUIZ">مسابقة الرياضيات</string>
+    <string name="Activity_REWARD">المكافآت</string>
+    <string name="Activity_SETTING">جلسة</string>
+    <string name="Activity_STORE">محل</string>
+    <string name="Activity_PAY">يدفع</string>
+    <string name="try_again_later">حاول مرة أخرى في وقت لاحق</string>
+
+    <string name="welcomeback">مرحباً</string>
+    <string name="signin_to_continue">تسجيل الدخول للمتابعة</string>
+    <string name="remember_me">تذكرنى</string>
+    <string name="getting_started">بدأ \ n</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="otp_has_been_sent_to_your_email">تم إرسال OTP إلى بريدك الإلكتروني</string>
+    <string name="login_google">تسجيل الدخول عبر جوجل</string>
+    <string name="login_with_email">تسجيل الدخول مع البريد الإلكتروني</string>
+    <string name="signup_with_email">سجل عن طريق البريد الإلكتروني</string>
+    <string name="phone">هاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forgot_password">نسيان كلمة المرور؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="signup">اشتراك</string>
+    <string name="email_address">عنوان البريد الإلكتروني</string>
+    <string name="phone_no">رقم الهاتف.</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="demo_email">john@gmail.com</string>
+    <string name="existing_user">مستخدم موجود؟</string>
+    <string name="signup_with">أو اشترك مع</string>
+    <string name="welcome_back">مرحبا بكم مرة أخرى ✨</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="procced">يتابع</string>
+    <string name="new_user_cr">ليس لديك حساب؟</string>
+    <string name="enter_email">أدخل بريدك الإلكتروني</string>
+    <string name="enter_otp">أدخل OTP</string>
+    <string name="forgot_pass">هل نسيت كلمة السر؟</string>
+    <string name="forgot_password_desc">لا تقلق نحن هنا لمساعدتك</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="select_profile_picture">حدد صورة الملف الشخصي</string>
+    <string name="already_have_an_account_signin_here">هل لديك حساب؟</string>
+    <string name="enter_valid_detail">الرجاء ملء جميع التفاصيل !!</string>
+    <string name="verify_otp">تحقق من OTP</string>
+    <string name="update_password">تطوير كلمة السر</string>
+    <string name="password_reset">إعادة تعيين كلمة المرور</string>
+    <string name="no_data_found">لاتوجد بيانات</string>
+    <string name="action_sign_in">تسجيل الدخول أو التسجيل</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="error_invalid_email">عنوان البريد الإلكتروني هذا غير صالح</string>
+    <string name="error_invalid_password">كلمة المرور هذه قصيرة جدًا</string>
+    <string name="error_incorrect_password">كلمة المرور هذه غير صحيحة</string>
+    <string name="error_field_required">هذه الخانة مطلوبه</string>
+    <string name="send_otp_again">إرسال OTP مرة أخرى؟</string>
+    <string name="please_select_profile_image">الرجاء تحديد صورة الملف الشخصي</string>
+    <string name="term_privacy">عن طريق تسجيل / تسجيل الدخول ، فإنك توافق على سياسة الخدمة وسياسة الخصوصية الخاصة بنا</string>
+
+    <string name="game">ألعاب</string>
+    <string name="play_game">يلعب العاب</string>
+    <string name="txt_loading">تحميل..</string>
+    <string name="txt_exit">مخرج</string>
+    <string name="txt_confirm_exit">هل تريد الخروج؟</string>
+    <string name="txt_yes">نعم</string>
+    <string name="txt_no">لا</string>
+    <string name="txt_this_function_is_not_support_here">هذه الوظيفة لا تدعم هنا.</string>
+
+    <string name="company">شركة</string>
+    <string name="name">اسم</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="about_app">حول التطبيق</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="youtube">موقع YouTube</string>
+    <string name="facebook">فيسبوك</string>
+    <string name="telegram">برقية</string>
+    <string name="setting">جلسة</string>
+    <string name="clear_cache">مسح ذاكرة التخزين المؤقت</string>
+    <string name="rateapp">قيم التطبيق</string>
+    <string name="more_app">المزيد من التطبيق</string>
+    <string name="social_link">الرابط الاجتماعي</string>
+    <string name="setting_subtitle">إعداد الحساب &amp; ؛ دعم &amp; ؛ عن</string>
+    <string name="read_privacypolicy">انقر لقراءة سياسة الخصوصية</string>
+    <string name="feedback_subtitle">تقديم ملاحظات لتحسين خدمتنا</string>
+    <string name="logout_subtitle">تسجيل الخروج من هذا الحساب</string>
+    <string name="support_subtitle">قم بإنشاء تذكرة لاستعلامك ، وسيتم الرد على فريقنا عبر البريد وحل النقر لقراءة TC.</string>
+    <string name="instructions">تعليمات</string>
+    <string name="history">تاريخ</string>
+    <string name="feedback">تعليق</string>
+    <string name="about_us">معلومات عنا</string>
+    <string name="rate_us">قيمنا</string>
+    <string name="cache_cleared">تم مسح ذاكرة التخزين المؤقت</string>
+    <string name="website">موقع إلكتروني</string>
+
+    <string name="enter_appurl">https://play.google.com/store/apps/details؟id=package اسم</string>
+    <string name="Playstore_url">url url apply play url</string>
+    <string name="search">يبحث</string>
+    <string name="youtube_videourl">url فيديو youtube</string>
+    <string name="example_ytlink">https://www.youtube.com/watch؟v=std6wursew</string>
+    <string name="website_title">موقع الويب/المدونة/المنشور</string>
+    <string name="website_link">أدخل رابط الموقع</string>
+    <string name="google_com">https://www.google.com/</string>
+    <string name="add">يضيف</string>
+    <string name="promote">يرقي</string>
+    <string name="promote_type">الترويج للمدونة ومقاطع الفيديو</string>
+    <string name="video_promotion">ترويج الفيديو</string>
+    <string name="website_promotion">ترقية الموقع</string>
+    <string name="create_promotion">إنشاء الترويج</string>
+    <string name="per_install_coin">لكل عملة عرض</string>
+    <string name="max_install_limit">الحد الأقصى للآراء</string>
+    <string name="create">يخلق</string>
+    <string name="enter_no_of_view">أدخل لا. من الرؤية</string>
+    <string name="please_fill_details">يرجى ملء التفاصيل</string>
+    <string name="not_enough_coin">لا يكفي عملة معدنية</string>
+    <string name="max_promomtion_limit">الحد الأقصى prmotion هو</string>
+    <string name="invalid_url">URL غير صالح</string>
+    <string name="status">حالة</string>
+    <string name="view_report">عرض التقرير</string>
+    <string name="active_promotion">الترويج النشط</string>
+    <string name="active">نشيط</string>
+    <string name="completed">مكتمل!</string>
+    <string name="promote_videos">الترويج لمقاطع الفيديو</string>
+    <string name="boost_your_video_watch_time_and_traffic">عزز وقت مشاهدة الفيديو الخاص بك وحركة المرور</string>
+    <string name="apps">تطبيقات</string>
+    <string name="videos">أشرطة فيديو</string>
+    <string name="boost_your_website_traffic">تعزيز موقع الويب الخاص بك الحصول على حركة المرور</string>
+    <string name="promote_your_app_and_increase_download">قم بترويج تطبيقك وزيادة التنزيل</string>
+    <string name="app_install_get">التطبيق الذي تم تنزيل المستخدم</string>
+    <string name="promotion_report">تقرير الترويج</string>
+    <string name="website_visited">زار موقع المستخدم</string>
+    <string name="video_watched">شاهد فيديو المستخدم</string>
+    <string name="promote_apps_video_web">تعزيز المحتوى الخاص بك</string>
+    <string name="all_promotion">كل الترقية</string>
+
+    <string name="razorpay">رازورباي</string>
+    <string name="paypal">PayPal</string>
+    <string name="upi">UPI</string>
+    <string name="no_upi_app_found">لم يتم العثور على تطبيق UPI.</string>
+    <string name="payment_cancelled">تم إلغاء الدفع</string>
+    <string name="payment_failed">عملية الدفع فشلت</string>
+    <string name="payment_successfull">الدفع الناجح</string>
+    <string name="razorpayAPIKey" />
+    <string name="purchase_coin_msg">شراء عملة</string>
+    <string name="coin_store">متجر العملة</string>
+    <string name="select_payment_option_to_continue">حدد خيار الدفع للمتابعة</string>
+    <string name="tap_to_continue">انقر للدفع</string>
+
+    <string name="todo">لكى يفعل</string>
+    <string name="no_internet">لا اتصال بالإنترنت !!</string>
+    <string name="submit">يُقدِّم</string>
+    <string name="update">تحديث</string>
+    <string name="_0">0</string>
+    <string name="_00000">00000</string>
+    <string name="redeem">يسترد</string>
+    <string name="leaderboard">لوحة المتصدرين</string>
+    <string name="rewards">المكافآت</string>
+    <string name="are_you_sure_you_want_to_logout">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="are_you_sure">هل أنت متأكد؟</string>
+    <string name="user">مستخدم</string>
+    <string name="invite">يدعو</string>
+    <string name="enter_your_email_id_to_redeem">أدخل بريدك الإلكتروني / الهوية للاسترداد</string>
+    <string name="enter_email_or_id">أدخل البريد الإلكتروني أو الهوية</string>
+    <string name="congratulations">تهانينا !!</string>
+    <string name="Rank">رتبة</string>
+    <string name="try_your_luck">جرب حظك</string>
+    <string name="play">يلعب</string>
+    <string name="scratch_again">خدش مرة أخرى</string>
+    <string name="you_ve_won">لقد ربحت</string>
+    <string name="you_ve_get">عندك</string>
+    <string name="offers">عروض</string>
+    <string name="collect_reward">جمع المكافآت</string>
+    <string name="refer_your_friend">إحالة أصدقائك واحصل على المكافأة</string>
+    <string name="your_refer_code">رمزك المشدد</string>
+    <string name="share_with_your_friend">شارك الكود الخاص بك مع أصدقائك واحصل على عملة مكافأة</string>
+    <string name="complete_offer">عرض كامل</string>
+    <string name="start_offer">ابدأ العرض</string>
+    <string name="verify_offer">تحقق من العرض</string>
+    <string name="faq">الأسئلة الشائعة</string>
+    <string name="how_to_use">كيفية إكمال المهمة</string>
+    <string name="reward_history">مكافأة هيستروي</string>
+    <string name="no_result_found">لاتوجد بيانات</string>
+    <string name="pending">قيد الانتظار</string>
+    <string name="view_detail">عرض التفاصيل</string>
+    <string name="success">نجاح</string>
+    <string name="reject">مرفوض</string>
+    <string name="install_get_bonus">تثبيت واستخدام الحصول على مكافأة</string>
+    <string name="otp_has_been_sended">تم إرسال OTP إلى البريد الإلكتروني</string>
+    <string name="wallet_history">تاريخ المحفظة &amp; ؛ تاريخ المكافأة</string>
+    <string name="skip">يتخطى</string>
+    <string name="get_started">البدء</string>
+    <string name="next">التالي</string>
+    <string name="login_with_google">تسجيل الدخول عبر جوجل</string>
+    <string name="welcome">مرحباً</string>
+    <string name="to">ل</string>
+    <string name="use_five_minute">العب لمدة دقيقتين</string>
+    <string name="use">يستخدم</string>
+    <string name="get_reward">جمع المكافآت</string>
+    <string name="required_coin">مطلوب عملة</string>
+    <string name="enter_valid_email">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="task_not_completed">المهمة لم تكتمل!</string>
+    <string name="in_process">تحت المعالجة</string>
+    <string name="reward_timeline">الجدول الزمني للمكافآت</string>
+    <string name="_100">100+</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="support">يدعم</string>
+    <string name="enter_referral_code">أدخل رمز الإحالة</string>
+    <string name="enter_referral_code_to_collect_to_welcome_bonus">أدخل رمز الإحالة لجمع المكافأة الترحيب</string>
+    <string name="collect_bonus">جمع المكافأة</string>
+    <string name="close">يغلق</string>
+    <string name="oops">أُووبس</string>
+    <string name="start_with">أبدا ب</string>
+    <string name="collect_welcome_bonus">جمع مكافأة الترحيب</string>
+    <string name="refer_desc">ادع صديقك وكسب عملة معدنية</string>
+    <string name="tap_copy">اضغط على نسخ</string>
+    <string name="refer">كود الإحالة</string>
+    <string name="my_coin">عملتي</string>
+    <string name="no_thanks">ًلا شكرا</string>
+    <string name="refer_get_reward">الرجوع &amp; ؛ الحصول على مكافأة</string>
+    <string name="image">صورة</string>
+    <string name="or_sign_with">أو تسجيل الدخول مع</string>
+    <string name="_150">+150</string>
+    <string name="apply">يتقدم</string>
+    <string name="try_again">حاول ثانية</string>
+    <string name="new_update">تحديث جديد متاح !!</string>
+    <string name="maintenance">صيانة</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="reset_message">أدخل عنوان البريد الإلكتروني الذي استخدمته عند إنشاء الحساب. سيتم إرسال رسالة إلى هذا العنوان الذي يحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك.</string>
+    <string name="no_internet_msg">يرجى التحقق من اتصال البيانات أو شبكة wifi</string>
+    <string name="new_password_not_match">كلمة مرور جديدة وتأكيد كلمة المرور غير مطابقة</string>
+    <string name="enter_url">إدخال عنوان الموقع</string>
+    <string name="okay">تمام</string>
+    <string name="no_offer_available">لا توجد عروض متوفرة حاول مرة أخرى لاحقًا</string>
+    <string name="dummy_text">Lorem ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نصية وهمية Lorem Ipsum هي ببساطة نص دمي لصناعة الطباعة والأنواع التنضي. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. كان Lorem Ipsum النص الهومي القياسي للصناعات منذ 1500s من صناعة الطباعة والأنسجة. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s Lorem Ipsum هو ببساطة نص وهمية لصناعة الطباعة والأنشاش. لقد كان Lorem ipsum نص Industrys Standard Dummy منذ 1500s</string>
+    <string name="rate_us_message">شاركنا خبرتك</string>
+    <string name="rate_our_app">قيم تطبيقنا</string>
+
+    <string name="daily_mission">البعثات اليومية</string>
+    <string name="purchase_chance">شراء الدوران</string>
+    <string name="leaderboard_subtitle">تحقق من أعلى المستخدم والتصنيف</string>
+    <string name="daily_mission_description">أكمل المهمة اليومية واحصل على قمة المتصدرين في جميع أنحاء العالم والحصول على مكافأة إضافية.</string>
+
+    <string name="hello">مرحبًا ! 👋</string>
+    <string name="sign_in_email">تسجيل الدخول مع البريد الإلكتروني</string>
+    <string name="app_short_desc">الغوص في لعبة الاختبار الإدمان لدينا والحصول على الهدايا</string>
+    <string name="hello_blank_fragment">مرحبا شظية فارغة</string>
+    <string name="top_offers">أعلى العروض</string>
+    <string name="latest_article">آخر المقالات</string>
+    <string name="latest_tutorial">أحدث تعليمي</string>
+    <string name="video_tutorial">فيديو تعليمي</string>
+    <string name="article">شرط</string>
+    <string name="my_profile">ملفي</string>
+    <string name="notification">إشعار</string>
+    <string name="navigation_drawer_open">الملاحة المفتوحة</string>
+    <string name="navigation_drawer_close">إغلاق الملاحة</string>
+    <string name="open_navigation">فتح الملاحة</string>
+    <string name="close_navigation">إغلاق الملاحة</string>
+    <string name="gift_card">كرت هدية</string>
+    <string name="profile">حساب تعريفي</string>
+    <string name="article_desc">اقرأ لدقيقة</string>
+    <string name="go_back_task_msg">إذا عدت ، فلن يُنسب أي عملة إلى محفظتك</string>
+    <string name="invite_get_bonus">دعوة والحصول على المكافأة</string>
+    <string name="read_terms_invite">*لا تقرأ t &amp; ؛ c في الأسئلة الشائعة></string>
+    <string name="refer_and_get_unlimited_bonus">الرجوع والحصول على مكافأة غير محدودة</string>
+    <string name="refer_description">قم بدعوة صديقك واحصل على مكافأة غير محدودة عندما تحيل صديقك أنت وصديقك يحصلون على مكافأة</string>
+    <string name="refer_and_reward">الرجوع والمكافأة</string>
+    <string name="more_detail">تفاصيل اكثر</string>
+    <string name="remark">ملاحظة:</string>
+    <string name="videozone_description">شاهد الفيديو لبعض الدقيقة واحصل على مكافأة</string>
+    <string name="history_description">إدارة سجل معاملتك وتاريخ الاسترداد هنا.</string>
+    <string name="history_terms">آخر 40 سجل من التاريخ يمكنك التحقق.</string>
+    <string name="coin_history">تاريخ العملة</string>
+    <string name="connect_with_us">تواصل معنا جيدا!</string>
+    <string name="about_us_subtitle">معلومات | المقابض الاجتماعية | محادثة</string>
+    <string name="_2nd">الثاني</string>
+    <string name="_3rd">الثالث</string>
+    <string name="_1st">الأول</string>
+    <string name="buy">يشتري</string>
+    <string name="buy_coin_description">شراء العملات المعدنية وترويج مواقع الويب الخاصة بك &amp; ؛ أشرطة فيديو</string>
+    <string name="cpi_offer">عروض CPI</string>
+    <string name="on_progress">على التقدم</string>
+    <string name="daily_offer">عرض يومي</string>
+    <string name="redeem_your_coin">استرد عملاتك المعدنية</string>
+    <string name="redeem_available_way">الطرق المتاحة: PayPal ، بطاقات هدايا Google ، UPI ، GPAY</string>
+    <string name="fill_promotion_detail">ملء تفاصيل الترويج</string>
+    <string name="create_promotion_info">املأ التفاصيل الخاصة بك وحدد طريقة العرض التي تريدها</string>
+    <string name="ad_loading">تحميل الإعلان ...</string>
+    <string name="spin_left">تدور اليسار:</string>
+    <string name="spin_description">تدور العجلة واحصل على مكافآتك على الفور. تدور!</string>
+    <string name="scratch_left">بطاقة الخدش اليسار:</string>
+    <string name="scratch_card_description">خدش والحصول على مكافآتك على الفور. خدش!</string>
+    <string name="coin_used">المعدلة المستخدمة:</string>
+    <string name="forgot_password_email">أدخل عنوان البريد الإلكتروني الذي استخدمته عند إنشاء الحساب. سيتم إرسال رسالة إلى هذا العنوان الذي يحتوي على OTP لإعادة تعيين كلمة المرور الخاصة بك.</string>
+    <string name="error">خطأ.</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="task_completed">أكملت TAKS انقر فوق "جمع المكافأة" لتلقي المكافأة الخاصة بك !!</string>
+    <string name="account_created">حساب تم إنشاؤه 😀</string>
+    <string name="write_your_answer">اكتب اجابتك</string>
+    <string name="submit_answer">سلم الاجابة</string>
+    <string name="what_is_result">ما هو نتيجة</string>
+    <string name="loading_next_que">تحميل السؤال التالي في</string>
+    <string name="enter_valid_answer">أدخل إجابة صالحة</string>
+    <string name="quiz_left">مسابقة مسابقة بقي:</string>
+    <string name="quiz_description">تشغيل اختبار واختبار مهارات الرياضيات الخاصة بك.</string>
+    <string name="offerwall">عرض الحائط</string>
+    <string name="daily_offer_description">العروض اليومية الكاملة احصل على المزيد من العملات المعدنية واتبع تعليمات العرض فقط</string>
+    <string name="submit_detail">إرسال التفاصيل</string>
+    <string name="read_artical_description">اقرأ المقالة وتصفح الويب للوقت المذكور واحصل على مكافأة</string>
+    <string name="watch_tutorial_learn">شاهد البرنامج التعليمي للوقت المذكور واحصل على المكافأة</string>
+    <string name="playzone_description">لعب الألعاب استمتع واحصل على مكافأة لقضاء الوقت</string>
+    <string name="announcement">إعلان</string>
+    <string name="faq_description">آمل أن تحل هذه الأسئلة استفسارك!</string>
+    <string name="accept">يقبل</string>
+    <string name="rejects">يرفض</string>
+    <string name="survey_not_available">الاستبيان غير متوفر حاول مرة أخرى لاحقًا</string>
+    <string name="app_offer_rule1">ستكون المكافأة ائتمانًا فقط إذا اتبعت كل التعليمات</string>
+    <string name="app_offer_rule2">ستكون المكافأة ائتمانًا لمدة تصل إلى 24 ساعة كحد أقصى</string>
+    <string name="influencer">هل أنت مؤثر</string>
+    <string name="promote_info">عزز موقع الويب الخاص بك ومقالك ومقاطع الفيديو</string>
+    <string name="manage_promotion">إدارة الترويج راجع كل التقدم الترويجي</string>
+    <string name="buy_coin">شراء عملة</string>
+    <string name="how_to">كيف</string>
+    <string name="_10">10</string>
+    <string name="date">2022-09-20</string>
+
+    <string name="daily_offer_rule">بعد العرض الكامل ، تحتاج إلى أخذ لقطة شاشة ونسخ الرابط والعودة وانقر فوق إرسال التفاصيل وإرسال تفاصيل العرض.</string>
+    <string name="daily_offer_terms">اقرأ: كيف تكمل العرض؟</string>
+    <string name="make_sure_fill_right_detail">تأكد من ملء التفاصيل الصحيحة</string>
+    <string name="how_to_fill">انقر لقراءة المعلومات حول كيفية ملء البيانات</string>
+    <string name="offer_complete_link">تقديم رابط كامل</string>
+    <string name="http">http</string>
+    <string name="select_offer_complete_ss">حدد عرض لقطة شاشة كاملة</string>
+    <string name="please_attach_offer_ss">تقديم لقطة شاشة كاملة</string>
+
+    <string name="english">إنجليزي</string>
+    <string name="choose_language">حدد لغاتك</string>
+    <string name="hindi">الهندية</string>
+    <string name="spanish">الأسبانية</string>
+    <string name="turkey">ديك رومى</string>
+    <string name="right_answer">الإجابة الصحيحة</string>
+    <string name="offerwalls">عرض &amp; ؛ استطلاع</string>
+    <string name="quiz">مسابقة الرياضيات</string>
+    <string name="coin">عملة</string>
+    <string name="wrong_answer">إجابة خاطئة</string>
+    <string name="choose_reward">اختر المبلغ للاسترداد</string>
+    <string name="select_your_reward">اختر مكافأتك</string>
+    <string name="complete_task_to_unlock">المهمة المذكورة الكاملة لفتح</string>
+    <string name="select_screenshot_link">يرجى تحديد عرض لقطة شاشة كاملة وتقديم رابط كامل</string>
+    <string name="select_screenshot_payment">يرجى تحديد الدفع الكامل لقطة الشاشة ومعرف المعاملة</string>
+    <string name="select_payment_option">حدد طريقة الدفع \ n</string>
+    <string name="tap_to_pay">اضغط على الدفع</string>
+    <string name="tap_to_pay_manual">دفع مع التحويل المصرفي</string>
+    <string name="transfer_detail">تفاصيل النقل</string>
+    <string name="support_title">إنشاء تذكرة الدعم</string>
+    <string name="create_support_ticket">إنشاء تذكرة الدعم</string>
+    <string name="all_created_ticket">جميع تذاكر الدعم</string>
+    <string name="support_query">دعم الاستعلام</string>
+    <string name="support_subject">موضوع</string>
+    <string name="your_message">رسالتك</string>
+    <string name="create_date">"إنشاء تاريخ:"</string>
+    <string name="ticket_id">"معرف التذاكر:"</string>
+    <string name="closed">مغلق</string>
+    <string name="claim_welcome_bonus">مكافأة الترحيب المطالبة</string>
+
+    <string name="verify_email">التحقق من البريد الإلكتروني</string>
+    <string name="verify_email_claim">تحقق من البريد الإلكتروني للحصول على المكافأة</string>
+    <string name="welcome_bonus_msg">للحصول على مكافأة الترحيب أولاً ، تحتاج إلى التحقق من عنوان بريدك الإلكتروني الخاص بك. سنرسل لك OTP للتحقق من عنوان البريد الإلكتروني</string>
+    <string name="check_email_status">تحقق من حالة التحقق من البريد الإلكتروني</string>
+    <string name="referral_id_if_available">معرف الإحالة (إذا كان ذلك متاحًا)</string>
+    <string name="claim_bonus">مكافأة المطالبة</string>
+    <string name="email_sent">أرسل البريد الإلكتروني</string>
+    <string name="already_claimed">ادعى بالفعل</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="delete_account_msg">هل تريد حذف حسابك؟ لا يمكن التراجع عن هذا الإجراء. سيتم حذف جميع البيانات بشكل دائم</string>
+    <string name="delete_account_loading">حذف الحساب ...</string>
+    <string name="Top_picks">أعلى اللقطات</string>
+    <string name="home">بيت</string>
+    <string name="missions">مهمة</string>
+    <string name="app_offers">أعلى العروض</string>
+    <string name="videowall">حائط الفيديو</string>
+    <string name="title_activity_custom_game">CustomGame</string>
+
+    <string name="first_fragment_label">أول جزء</string>
+    <string name="second_fragment_label">الشظية الثانية</string>
+    <string name="previous">سابق</string>
+
+    <string name="lorem_ipsum">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl
+
+</string>
+    <string name="games_for_you">ألعاب لك</string>
+    <string name="go">يذهب</string>
+    <string name="initializing">جار تهيئة</string>
+    <string name="referral_history">تاريخ الإحالة</string>
+    <string name="joined_at">انضم إلى</string>
+    <string name="login_explore">دعنا نسجل الاستكشاف مستمر</string>
+    <string name="get_started_now">نبدأ الآن</string>
+    <string name="lets_create_account">دعنا أقوم بإنشاء حسابك</string>
+    <string name="or_signup_with">أو الاشتراك مع</string>
+    <string name="title_activity_play_time">وقت اللعب</string>
+    <string name="spin">يلف</string>
+    <string name="available_quiz">الاختبار المتاح:</string>
+    <string name="today_limit_completed">اكتمل الحد اليوم</string>
+    <string name="copy_code">نسخ \ ncode</string>
+    <string name="or_share_your_referral_code_via">أو شارك رمز الإحالة الخاص بك عبر</string>
+    <string name="earn_more_from_refer">كسب المزيد من إحالة الصديق</string>
+    <string name="successfull_invite">دعوة ناجحة</string>
+    <string name="pending_invite">دعوة معلقة</string>
+    <string name="invite_friend_get_scratch_card">دعوة صديق ANF الحصول على بطاقة الخدش</string>
+    <string name="see_more">اظهار الكل</string>
+    <string name="coins">عملات معدنية</string>
+    <string name="claim">مطالبة</string>
+    <string name="our_social_links">روابط اجتماعية</string>
+    <string name="Activity_REWARDs">مكافأة النشاط</string>
+    <string name="support_all_platform_videos">دعم جميع مقاطع الفيديو منصة</string>
+    <string name="support_all_platform_web">تعزيز جميع مواقع الويب</string>
+    <string name="rewards_desc">أكمل جميع التحدي وتحويل عملاتك إلى مكافأة مذهلة.</string>
+    <string name="balance">توازن</string>
+    <string name="description">وصف</string>
+    <string name="__">______</string>
+    <string name="best_plans_for_mastery">أفضل خطط للإتقان</string>
+    <string name="upgrade_and_unlock_extra_task_amp_benefits">ترقية وفتح مهمة إضافية &amp; ؛ فوائد></string>
+    <string name="choose_payment_method">اختر وسيلة الدفع</string>
+    <string name="scan_this_qr_or_copy_this_id">مسح هذا QR أو انسخ هذا المعرف</string>
+    <string name="after_payment">بعد الدفع</string>
+    <string name="input_transaction_id">معرف المعاملة الإدخال</string>
+    <string name="bank_name">اسم البنك</string>
+    <string name="account_holder_name">اسم صاحب الحساب</string>
+    <string name="account_number">رقم حساب</string>
+    <string name="ifsc_code">رمز IFSC</string>
+    <string name="attact">يربط</string>
+    <string name="upload_screenshot">تحميل لقطة الشاشة</string>
+    <string name="upload_payment_proof">تحميل لقطة الشاشة</string>
+    <string name="note">ملحوظة</string>
+    <string name="available_scratch">بطاقة الخدش المتاحة</string>
+    <string name="reward">المكافآت</string>
+    <string name="task_progress">تقدم المهمة</string>
+    <string name="claim_your_reward">ادعى مكافأتك</string>
+    <string name="leave_0_coin">ترك (0 عملة)</string>
+    <string name="continue_playing">الاستمرار في اللعب</string>
+    <string name="you_can_earn_maximum_coin_coins_by_completing_this_task">يمكنك كسب {Coin} {currency} من خلال إكمال هذه المهمة.</string>
+    <string name="insufficient_playtime">وقت اللعب غير كاف !!</string>
+    <string name="watch_ads">شاهد الإعلان لفتح</string>
+    <string name="coin_added_successfull">وأضاف العملة بنجاح</string>
+    <string name="watch_ad_to_add">شاهد الإعلان لإضافة عملة معدنية في محفظتك</string>
+    <string name="promo_coin_description">ليس لديه ما يكفي من العملة؟ انقر على زر الشراء لشراء عملة</string>
+    <string name="thumbnail_url">عنوان URL Thumbnail</string>
+    <string name="watch_ad_to_unlock">شاهد الإعلان لفتح</string>
+    <string name="watch_ad">شاهد الإعلان لفتح</string>
+    <string name="add_to_wallet">أضف إلى محفظة</string>
+    <string name="promo_coin">عملة ترويجية</string>
+    <string name="mission_pending">قيد الانتظار</string>
+    <string name="collected">تم جمعها</string>
+    <string name="collect">اجمع الآن</string>
+    <string name="total_invite">دعوة مجموع</string>
+    <string name="subscription">الاشتراك</string>
+    <string name="refer_status">إحالة الحالة</string>
+    <string name="today">اليوم</string>
+    <string name="this_week">أسبوعي</string>
+    <string name="all_time">كل الوقت</string>
+    <string name="total_withdrawl">إجمالي الانسحاب</string>
+    <string name="invite_friend_and_get_scratch_card">دعوة الصديق واحصل على بطاقة الخدش</string>
+    <string name="invite_friend">دعوة الصديق</string>
+
+</resources>

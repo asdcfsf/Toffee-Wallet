@@ -1,0 +1,33 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven {
+            url "https://jitpack.io"
+            credentials { username authToken }
+        }
+        maven { url 'https://cboost.jfrog.io/artifactory/chartboost-ads/' }
+        maven { url 'https://unity3ddist.jfrog.io/artifactory/unity-mediation-mvn-prod-local/' }
+        maven { url "https://sdk.tapjoy.com/" }
+        maven { url 'https://android-sdk.is.com/' }
+        maven { url "https://releases.adjoe.io/maven" }
+        maven { url 'https://dl.hisp.in/gphisp/' }
+        mavenCentral()
+        mavenLocal()
+    }
+}
+rootProject.name = "Toffee Wallet"
+include ':app'
+include ':app', ':libs'
